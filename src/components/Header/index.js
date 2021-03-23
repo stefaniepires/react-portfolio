@@ -5,7 +5,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div>
-<h1>Hello!</h1>
+<h1>Stefanie Pires</h1>
 
     </div>
   )

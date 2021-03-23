@@ -5,6 +5,7 @@ import DeleteIcon from '@material-ui/icons/Delete'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         </ButtonGroup>
 
       </header>
+      <Footer/>
     </div>
     </div>
   );
