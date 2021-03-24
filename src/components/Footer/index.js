@@ -1,8 +1,6 @@
 import React from 'react'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import GithubIcon from '@material-ui/icons/GitHub'
-import CopyrightIcon from '@material-ui/icons/Copyright';
-
 
 
 const Footer = () => {

@@ -1,11 +1,12 @@
 import React from 'react';
-
+import name from '../../assets/name.png';
 
 
 const Header = () => {
   return (
     <div>
-<h1>Stefanie Pires</h1>
+<center><img src={name} alt="Headshot" width="350"/></center>
+
 
     </div>
   )

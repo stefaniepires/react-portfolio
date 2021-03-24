@@ -8,6 +8,8 @@ import ListItemText from '@material-ui/core/ListItemText'
 import MenuIcon from '@material-ui/icons/Menu'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import GithubIcon from '@material-ui/icons/GitHub'
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 
 
 const Nav = () => {
@@ -24,20 +26,22 @@ const Nav = () => {
 
   const list = () => (
     <div onClick={toggleDrawer(true)}>
+      <Typography component="div">
+      <Box width={200}>
         <List>
-  <ListItem button component="a" href="#about">
+  <ListItem button component="a" href="about">
     <ListItemText primary="About" />
   </ListItem>
 
-  <ListItem button component="a" href="#projects">
+  <ListItem button component="a" href="projects">
     <ListItemText primary="Projects" />
   </ListItem>
 
-  <ListItem button component="a" href="#resume">
+  <ListItem button component="a" href="/">
     <ListItemText primary="Resume" />
   </ListItem>
 
-  <ListItem button component="a" href="#contact">
+  <ListItem button component="a" href="contact">
     <ListItemText primary="Contact" />
   </ListItem>
 
@@ -53,11 +57,14 @@ const Nav = () => {
   </ListItem>
 
   </List>
+  </Box>
+  </Typography>
    </div>
   )
 
   return (
-<div>
+<div align="right">
+
 <Button onClick={toggleDrawer(true)}><MenuIcon/></Button>
 <Drawer
 anchor={'left'}
@@ -66,6 +73,7 @@ onClose={toggleDrawer(false)}
 >
   {list()}
 </Drawer>
+
 </div>
   )
 }
