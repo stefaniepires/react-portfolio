@@ -10,6 +10,8 @@ import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import GithubIcon from '@material-ui/icons/GitHub'
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 
 
 const Nav = () => {
@@ -48,6 +50,15 @@ const Nav = () => {
 </List>
 <Divider/>
 <List>
+
+<ListItem>
+<PhoneIphoneIcon/>
+</ListItem>
+
+<ListItem>
+      <EmailIcon/>
+</ListItem>
+
   <ListItem button component="a" href="https://www.linkedin.com/in/stefanietinsley/">
     <LinkedinIcon/>
   </ListItem>
@@ -55,6 +66,7 @@ const Nav = () => {
   <ListItem button component="a" href="https://github.com/stefaniepires/">
     <GithubIcon/>
   </ListItem>
+
 
   </List>
   </Box>

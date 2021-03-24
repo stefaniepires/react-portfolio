@@ -1,5 +1,6 @@
 import React from 'react'
 import headshot from '../../assets/headshot.png';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 const Profile = () => {
   return (
@@ -10,7 +11,10 @@ const Profile = () => {
       <p><em>Full Stack Developer</em></p>
       <br/>
       <p>
-      Motivated and creative Full Stack Developer passionate about creating user-friendly software.</p>
+      Motivated and creative Full Stack Developer passionate about creating user-friendly software.
+      </p>
+      <br/>
+      <p><LocationOnIcon/>Dallas-Ft. Worth, TX</p>
       </center>
     </div>
   )

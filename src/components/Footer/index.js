@@ -1,12 +1,19 @@
 import React from 'react'
 import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import GithubIcon from '@material-ui/icons/GitHub'
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import Divider from '@material-ui/core/Divider'
 
 
 const Footer = () => {
   return (
     <div>
-      <br/>
+      <center>
+      <br/> <br/> <br/> <br/>
+      <Divider/><br/>
+      <PhoneIphoneIcon/>
+      <EmailIcon/>
   <a data-testid="link" href="https://www.linkedin.com/in/stefanietinsley/">
   <LinkedinIcon/>
   </a>
@@ -14,6 +21,7 @@ const Footer = () => {
     <GithubIcon/>
   </a>
   <p>Stefanie Pires 2021 &copy;</p> 
+  </center>
     </div>
   )
 }
