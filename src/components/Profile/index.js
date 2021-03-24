@@ -27,7 +27,7 @@ const Profile = () => {
       </div>
       <div>
       <p>
-      Motivated and creative Full Stack Developer passionate about creating user-friendly software.
+      Motivated and creative Full Stack<br/> Developer passionate about creating<br/>user-friendly software.
       </p>
       <br/>
       <p><LocationOnIcon/>Dallas-Ft. Worth, TX</p>
@@ -35,6 +35,7 @@ const Profile = () => {
       <button>Download CV<CloudDownloadIcon/></button> 
       </div>
       </center>
+      <br/><br/><br/><br/><br/>
     </div>
   )
 }
