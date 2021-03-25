@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-.profile {
+.profile-area {
   background-color: #fff;
   border-radius: 6px;
   width: 100%;
@@ -35,3 +35,4 @@
   font-family: 'Raleway', sans-serif;
   padding-right: 15px;
 }
+

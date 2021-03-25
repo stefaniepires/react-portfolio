@@ -71,5 +71,20 @@ export default {
       text: 'Email',
       icon: <EmailIcon/>,
     }
+  },
+
+  skills: {
+    one: 'HTML5',
+    two: 'CSS3',
+    three: 'Javascript',
+    four: 'JQuery',
+    five: 'Node Js',
+    six: 'MySQL',
+    seven: 'MongoDB',
+    eight: 'Express',
+    nine: 'Handelbars.js',
+    ten: 'ReactJS',
+    eleven: 'Material-UI',
+    twelve: 'Bootstrap'
   }
 }

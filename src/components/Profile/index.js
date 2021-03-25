@@ -10,7 +10,7 @@ import resumeData from '../../utils/resumeData'
 
 const Profile = () => {
   return (
-    <div className='profile container_shadow'>
+    <div className='profile-area container_shadow'>
       <center>
         <div className='headshot'>
       <img src={headshot} alt="Headshot" width="200"/>
@@ -31,7 +31,7 @@ const Profile = () => {
       <br/>
       <p><LocationOnIcon/>{resumeData.location}</p>
       <br/>
-      <CustomButton text={'Download CV'} icon= {<GetAppIcon/>}/>
+      <CustomButton className="profile-btn" text={'Download CV'} icon= {<GetAppIcon/>}/>
       </div>
       </center>
       <br/><br/><br/><br/><br/>

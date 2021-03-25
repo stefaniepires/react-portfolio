@@ -1,7 +1,10 @@
 * {
   margin:0;
 }
-
+@font-face {
+  font-family:'beautiful-bloom';
+  src:local('beautiful-bloom'),url(./fonts/beautiful-bloom/BeautifulBloom-Regular.ttf) format('truetype');
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

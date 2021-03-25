@@ -4,12 +4,13 @@
   background-color: #fff;
   padding-left: 10px;
   padding-right: 20px;
+  padding-bottom: 70px;
 }
 
 .about_text{
   color: #676767;
   font-family: 'Raleway', sans-serif;
-  line-height: 22px !important;;
+  line-height: 22px !important;
   white-space: pre-line !important;
 }
 
@@ -19,4 +20,26 @@
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px;
   text-decoration: underline dotted;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  line-height: 22px !important;
+   letter-spacing: 1.5px;
+   text-align:left;
+ }
+
+ .check {
+   color: var(--button-color);
+   font-size: 15px !important;
+   padding-right: 10px;
+   text-align:left;
+   
+ }
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

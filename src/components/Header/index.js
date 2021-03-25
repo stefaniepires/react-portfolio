@@ -1,16 +1,17 @@
 import React from 'react';
-import name from '../../assets/name.png';
 import'./Header.css';
 import Nav from '../Nav';
+import resumeData from '../../utils/resumeData'
 
 const Header = () => {
   return (
     <header className={'header'}>
       <Nav/>
-<center><img src={name} alt="Headshot" width="350"/></center>
+<center>
+<h1 className='header-title'>{resumeData.name}</h1>
+</center>
 
-
-    </header>
+</header>
   )
 }
 
