@@ -3,8 +3,9 @@ import './Profile.css';
 import headshot from '../../assets/headshot.png';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-
-
+import GetAppIcon from '@material-ui/icons/GetApp';
+import CustomButton from '../Button';
+import resumeData from '../../utils/resumeData'
 
 
 
@@ -17,22 +18,21 @@ const Profile = () => {
       </div>
       <div className='profileHeader'>
        <div className='name'> 
-      Stefanie Pires
+      {resumeData.name}
       </div>
       <div className='jobTitle'>
-      
-        Full Stack Developer
+      {resumeData.title}
       <br/>
     </div>
       </div>
       <div>
-      <p>
-      Motivated and creative Full Stack<br/> Developer passionate about creating<br/>user-friendly software.
+      <p className='description'>
+      {resumeData.description}
       </p>
       <br/>
-      <p><LocationOnIcon/>Dallas-Ft. Worth, TX</p>
+      <p><LocationOnIcon/>{resumeData.location}</p>
       <br/>
-      <button>Download CV<CloudDownloadIcon/></button> 
+      <CustomButton text={'Download CV'} icon= {<GetAppIcon/>}/>
       </div>
       </center>
       <br/><br/><br/><br/><br/>

@@ -1,9 +1,10 @@
 import React from 'react'
+import CustomTimeline from '../../Timeline/';
 
 const Resume = () => {
   return (
     <div>
-      Resume portion
+      <CustomTimeline/>
     </div>
   )
 }

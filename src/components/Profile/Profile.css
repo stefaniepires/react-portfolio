@@ -28,8 +28,10 @@
     letter-spacing: .5px;
 }
 
-p {
+
+.description {
   font-size: 15px;
   color: #676767;
   font-family: 'Raleway', sans-serif;
+  padding-right: 15px;
 }
