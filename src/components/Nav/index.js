@@ -12,6 +12,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import './Nav.css';
 
 
 const Nav = () => {
@@ -30,33 +31,33 @@ const Nav = () => {
     <div onClick={toggleDrawer(true)}>
       <Typography component="div">
       <Box width={200}>
-        <List>
+        <List className='list-items'>
   <ListItem button component="a" href="about">
-    <ListItemText primary="About" />
+    <ListItemText primary="about" />
   </ListItem>
 
   <ListItem button component="a" href="projects">
-    <ListItemText primary="Projects" />
+    <ListItemText primary="projects" />
   </ListItem>
 
   <ListItem button component="a" href="/">
-    <ListItemText primary="Resume" />
+    <ListItemText primary="resume" />
   </ListItem>
 
   <ListItem button component="a" href="contact">
-    <ListItemText primary="Contact" />
+    <ListItemText primary="contact" />
   </ListItem>
 
 </List>
 <Divider/>
-<List>
+<List className='list-items'>
 
 <ListItem>
-<PhoneIphoneIcon/>
+<PhoneIphoneIcon className='icon'/>
 </ListItem>
 
 <ListItem>
-      <EmailIcon/>
+      <EmailIcon className='icon'/>
 </ListItem>
 
   <ListItem button component="a" href="https://www.linkedin.com/in/stefanietinsley/">

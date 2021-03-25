@@ -1,0 +1,15 @@
+.contact-page{
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 335px;
+}
+
+.contact-header {
+  font-size: 32px;
+  color: var(--button-color);
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: underline dotted;
+  padding-bottom:20px;
+}

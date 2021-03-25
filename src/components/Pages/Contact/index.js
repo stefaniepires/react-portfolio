@@ -1,9 +1,10 @@
 import React from 'react'
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section className='contact-page'>
+      <h1 className='contact-header' data-testid="h1tag">get in contact</h1>
       <form id="contact-form">
         <div>
           <label htmlFor="name">Name:</label>
@@ -20,6 +21,7 @@ const Contact = () => {
         
         <button data-testid="button" type="submit">Submit</button>
       </form>
+      
     </section>
   )
 }
