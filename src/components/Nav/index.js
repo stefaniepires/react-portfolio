@@ -52,11 +52,13 @@ const Nav = () => {
 <Divider/>
 <List className='list-items'>
 
-<ListItem>
+
+<ListItem button component="a" href="tel:9403156490">
 <PhoneIphoneIcon className='icon'/>
 </ListItem>
 
-<ListItem>
+
+<ListItem button component="a" href="mailto:StefaniePires91@gmail.com">
       <EmailIcon className='icon'/>
 </ListItem>
 

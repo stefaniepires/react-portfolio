@@ -6,6 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import Divider from '@material-ui/core/Divider'
 
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -13,15 +14,20 @@ const Footer = () => {
       <center>
       <br/> <br/> <br/> <br/>
       <Divider/><br/>
-      <PhoneIphoneIcon/>
-      <EmailIcon/>
-  <a data-testid="link" href="https://www.linkedin.com/in/stefanietinsley/">
+      <a className="icons" data-testid="link" href="tel:9403156490">
+      <PhoneIphoneIcon className="icons"/>
+      </a>
+
+      <a className="icons" data-testid="link" href="mailto:StefaniePires91@gmail.com">
+      <EmailIcon className="icons"/>
+</a>
+  <a className="icons" data-testid="link" href="https://www.linkedin.com/in/stefanietinsley/">
   <LinkedinIcon/>
   </a>
-  <a data-testid="link" href="https://github.com/stefaniepires/">
+  <a className="icons" data-testid="link" href="https://github.com/stefaniepires/">
     <GithubIcon/>
   </a>
-  <p>Stefanie Pires 2021 &copy;</p> 
+  <p className="footer-text">Stefanie Pires 2021 &copy;</p> 
   </center>
     </div>
   )
