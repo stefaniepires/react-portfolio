@@ -3,4 +3,6 @@
   font-family: 'Raleway', sans-serif !important;
 }
 
-
+.menuIcon {
+  color:var(--button-color) !important;
+}

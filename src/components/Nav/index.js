@@ -80,7 +80,7 @@ const Nav = () => {
   return (
 <div align="right">
 
-<Button onClick={toggleDrawer(true)}><MenuIcon/></Button>
+<Button onClick={toggleDrawer(true)}><MenuIcon className="menuIcon"/></Button>
 <Drawer
 anchor={'left'}
 open={state}

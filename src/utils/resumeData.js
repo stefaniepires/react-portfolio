@@ -86,5 +86,48 @@ export default {
     ten: 'ReactJS',
     eleven: 'Material-UI',
     twelve: 'Bootstrap'
-  }
+  },
+
+  experiences: [
+    {
+      
+        title: 'Job Example 1',
+        date: '2020-2021',
+        description: 'This is currently TBD'
+      
+    },
+    {
+      
+      title: 'Job Example 2',
+      date: '2019-2020',
+      description: 'This is currently TBD'
+    
+  },
+  {
+      
+    title: 'Job Example 3',
+    date: '2018-2019',
+    description: 'This is currently TBD'
+  
 }
+
+  ],
+
+  education: [
+    {
+      
+        title: 'Education Example 1',
+        date: '2020-present',
+        description: 'This is currently TBD'
+      
+    },
+    {
+      
+      title: 'Education Example 2',
+      date: '2019-2020',
+      description: 'This is currently TBD'
+    
+  }
+  ]
+
+};
