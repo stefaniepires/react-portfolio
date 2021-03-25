@@ -5,3 +5,18 @@
   padding-left: 10px;
   padding-right: 20px;
 }
+
+.about_text{
+  color: #676767;
+  font-family: 'Raleway', sans-serif;
+  line-height: 22px !important;;
+  white-space: pre-line !important;
+}
+
+.header_text{
+  font-size: 32px;
+  color: var(--button-color);
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: underline dotted;
+}

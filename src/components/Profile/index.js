@@ -2,7 +2,6 @@ import React from 'react'
 import './Profile.css';
 import headshot from '../../assets/headshot.png';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import CustomButton from '../Button';
 import resumeData from '../../utils/resumeData'

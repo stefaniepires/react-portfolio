@@ -15,6 +15,7 @@ export default {
   title: 'Full Stack Developer',
   description: 'Motivated and creative Full Stack Developer passionate about creating user-friendly software.',
   location: ' Dallas-Ft. Worth, TX',
+  about:'about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here! about me paragraph goes here!  ',
 
   socials: {
     linkedin: {
