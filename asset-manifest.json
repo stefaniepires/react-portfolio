@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.aac6b40e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.416d272f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.416d272f.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.be0a1dbc.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.be0a1dbc.js.map",
+    "static/js/2.27485f48.chunk.js": "/react-portfolio/static/js/2.27485f48.chunk.js",
+    "static/js/2.27485f48.chunk.js.map": "/react-portfolio/static/js/2.27485f48.chunk.js.map",
+    "static/js/3.9461a531.chunk.js": "/react-portfolio/static/js/3.9461a531.chunk.js",
+    "static/js/3.9461a531.chunk.js.map": "/react-portfolio/static/js/3.9461a531.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.aac6b40e.chunk.css.map": "/react-portfolio/static/css/main.aac6b40e.chunk.css.map",
+    "static/js/2.27485f48.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.27485f48.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-portfolio/static/media/BeautifulBloom-Regular.8a5d3dd7.ttf",
+    "static/media/budget_tracker.f12a0aee.png": "/react-portfolio/static/media/budget_tracker.f12a0aee.png",
+    "static/media/coding_quiz.a3559fa9.png": "/react-portfolio/static/media/coding_quiz.a3559fa9.png",
+    "static/media/deck_halls.131bf1db.png": "/react-portfolio/static/media/deck_halls.131bf1db.png",
+    "static/media/fridge_friend.7b69b256.png": "/react-portfolio/static/media/fridge_friend.7b69b256.png",
+    "static/media/headshot.4e69a51d.png": "/react-portfolio/static/media/headshot.4e69a51d.png",
+    "static/media/nomader_where.dfd803db.png": "/react-portfolio/static/media/nomader_where.dfd803db.png",
+    "static/media/pwa.bed530ac.png": "/react-portfolio/static/media/pwa.bed530ac.png",
+    "static/media/social+api.266f0012.gif": "/react-portfolio/static/media/social+api.266f0012.gif",
+    "static/media/taskmaster_pro.f85cfbb6.png": "/react-portfolio/static/media/taskmaster_pro.f85cfbb6.png",
+    "static/media/tech_blog.5f79efcd.png": "/react-portfolio/static/media/tech_blog.5f79efcd.png",
+    "static/media/weather_dashboard.f8ab9946.png": "/react-portfolio/static/media/weather_dashboard.f8ab9946.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be0a1dbc.js",
+    "static/js/2.27485f48.chunk.js",
+    "static/css/main.aac6b40e.chunk.css",
+    "static/js/main.416d272f.chunk.js"
+  ]
+}
