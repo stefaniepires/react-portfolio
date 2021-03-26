@@ -29,4 +29,4 @@
   Email: stefaniepires91@gmail.com
   GitHub: https://github.com/stefaniepires
   
-  ![Screenshot]()
+  ![Screenshot](./src/assets/screen.gif)

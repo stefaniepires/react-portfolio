@@ -25,7 +25,7 @@ function App() {
         <Profile/>
         </Grid>
         <Grid item xs>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Switch>
 
           <Route exact path = '/'>
