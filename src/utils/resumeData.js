@@ -177,18 +177,12 @@ export default {
   }
   ],
 
-  projects: [
+  projects1: [
     {
       title: 'MVC Tech Blog',
       url: 'https://tech-blog-sp.herokuapp.com/',
       githubLink: 'https://github.com/stefaniepires/mvc-tech-blog',
       img: techBlog
-    },
-    {
-      title: 'Fridge Friend',
-      url: 'https://fridg3-fri3nd.herokuapp.com/',
-      githubLink: 'https://github.com/stefaniepires/fridgefriend',
-      img: fridgeFriend
     },
     {
       title: 'Taskmaster Pro',
@@ -197,22 +191,10 @@ export default {
       img: taskmaster
     },
     {
-      title: 'Weather Dashboard',
-      url: 'https://stefaniepires.github.io/weather-dashboard/',
-      githubLink: 'https://github.com/stefaniepires/weather-dashboard',
-      img: weatherDash
-    },
-    {
       title: 'Deck the Halls',
       url: 'https://stefaniepires.github.io/deck-the-halls/',
       githubLink: 'https://github.com/stefaniepires/deck-the-halls',
       img: deckHalls
-    },
-    {
-      title: 'Nomader Where',
-      url: 'https://evan-wer.github.io/Travel-Buddy/',
-      githubLink: 'https://github.com/stefaniepires/Nomader-Where',
-      img: nomader
     },
     {
       title: 'Coding Quiz',
@@ -221,16 +203,37 @@ export default {
       img: codingQuiz
     },
     {
-      title: 'PWA Project: Food Festival',
-      url: 'https://stefaniepires.github.io/food-festival/',
-      githubLink: 'https://github.com/stefaniepires/food-festival',
-      img: pwa
-    },
-    {
       title: 'Social Network API',
       url: 'https://github.com/stefaniepires/social-network-api',
       githubLink: 'https://github.com/stefaniepires/social-network-api',
       img: social
+    }
+  ],
+
+  projects2: [
+    {
+      title: 'Fridge Friend',
+      url: 'https://fridg3-fri3nd.herokuapp.com/',
+      githubLink: 'https://github.com/stefaniepires/fridgefriend',
+      img: fridgeFriend
+    },
+    {
+      title: 'Weather Dashboard',
+      url: 'https://stefaniepires.github.io/weather-dashboard/',
+      githubLink: 'https://github.com/stefaniepires/weather-dashboard',
+      img: weatherDash
+    },
+    {
+      title: 'Nomader Where',
+      url: 'https://evan-wer.github.io/Travel-Buddy/',
+      githubLink: 'https://github.com/stefaniepires/Nomader-Where',
+      img: nomader
+    },
+    {
+      title: 'PWA Project: Food Festival',
+      url: 'https://stefaniepires.github.io/food-festival/',
+      githubLink: 'https://github.com/stefaniepires/food-festival',
+      img: pwa
     },
     {
       title: 'Budget Tracker',
@@ -239,5 +242,7 @@ export default {
       img: budgetTracker
     }
   ]
+
+
 
 };

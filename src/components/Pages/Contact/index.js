@@ -23,9 +23,8 @@ const Contact = () => {
         <CustomButton className="profile-btn" text={'Submit'}/>
         </div>
       </form>
-      <br/>
-      <h1 className='contact-header' data-testid="h1tag">location</h1>
-      map here
+  
+      
     </section>
   )
 }
