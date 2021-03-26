@@ -9,6 +9,17 @@ import RedditIcon from '@material-ui/icons/Reddit';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
 
+import fridgeFriend from '../assets/projects/fridge_friend.png';
+import budgetTracker from '../assets/projects/budget_tracker.png';
+import codingQuiz from '../assets/projects/coding_quiz.png';
+import deckHalls from '../assets/projects/deck_halls.png';
+import nomader from '../assets/projects/nomader_where.png';
+import pwa from '../assets/projects/pwa.png';
+import social from '../assets/projects/social+api.gif';
+import taskmaster from '../assets/projects/taskmaster_pro.png';
+import techBlog from '../assets/projects/tech_blog.png';
+import weatherDash from '../assets/projects/weather_dashboard.png';
+
 
 export default {
   name: 'Stefanie Pires',
@@ -120,24 +131,31 @@ export default {
   experiences: [
     {
       
-        title: 'Job Example 1',
-        date: '2020-2021',
+        title: 'Full Stack Developer - ',
+        date: 'April 2021 - Present',
         description: 'This is currently TBD'
       
     },
     {
       
-      title: 'Job Example 2',
-      date: '2019-2020',
-      description: 'This is currently TBD'
+      title: 'Account Manager - FusionPKG',
+      date: 'December 2018 - November 2020',
+      description: 'Promoted 11 months into the role. Received praise from clients for exceptional customer service, response time, and quality of work.Recognized for working swiftly with minimal errors.'
     
   },
   {
       
-    title: 'Job Example 3',
-    date: '2018-2019',
+    title: 'Marketing Manager - Tinsley Realty',
+    date: 'July 2017 - January 2019',
     description: 'This is currently TBD'
   
+},
+{
+      
+  title: 'Buyer - Sally Beauty Supply',
+  date: 'January 2014 - July 2017',
+  description: 'This is currently TBD'
+
 }
 
   ],
@@ -145,18 +163,81 @@ export default {
   education: [
     {
       
-        title: 'Education Example 1',
-        date: '2020-present',
-        description: 'This is currently TBD'
+        title: 'Full Stack Development Certificate - University of Pennsylvania',
+        date: 'Graduated April 2021',
+        description: 'A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.'
       
     },
     {
       
-      title: 'Education Example 2',
-      date: '2019-2020',
-      description: 'This is currently TBD'
+      title: 'B.A. Anthropology - University of North Texas',
+      date: 'Graduated 2013',
+      description: ''
     
   }
+  ],
+
+  projects: [
+    {
+      title: 'MVC Tech Blog',
+      url: 'https://tech-blog-sp.herokuapp.com/',
+      githubLink: 'https://github.com/stefaniepires/mvc-tech-blog',
+      img: techBlog
+    },
+    {
+      title: 'Fridge Friend',
+      url: 'https://fridg3-fri3nd.herokuapp.com/',
+      githubLink: 'https://github.com/stefaniepires/fridgefriend',
+      img: fridgeFriend
+    },
+    {
+      title: 'Taskmaster Pro',
+      url: 'https://stefaniepires.github.io/taskmaster-pro/',
+      githubLink: 'https://github.com/stefaniepires/taskmaster-pro',
+      img: taskmaster
+    },
+    {
+      title: 'Weather Dashboard',
+      url: 'https://stefaniepires.github.io/weather-dashboard/',
+      githubLink: 'https://github.com/stefaniepires/weather-dashboard',
+      img: weatherDash
+    },
+    {
+      title: 'Deck the Halls',
+      url: 'https://stefaniepires.github.io/deck-the-halls/',
+      githubLink: 'https://github.com/stefaniepires/deck-the-halls',
+      img: deckHalls
+    },
+    {
+      title: 'Nomader Where',
+      url: 'https://evan-wer.github.io/Travel-Buddy/',
+      githubLink: 'https://github.com/stefaniepires/Nomader-Where',
+      img: nomader
+    },
+    {
+      title: 'Coding Quiz',
+      url: 'https://stefaniepires.github.io/code-quiz/',
+      githubLink: 'https://github.com/stefaniepires/code-quiz',
+      img: codingQuiz
+    },
+    {
+      title: 'PWA Project: Food Festival',
+      url: 'https://stefaniepires.github.io/food-festival/',
+      githubLink: 'https://github.com/stefaniepires/food-festival',
+      img: pwa
+    },
+    {
+      title: 'Social Network API',
+      url: 'https://github.com/stefaniepires/social-network-api',
+      githubLink: 'https://github.com/stefaniepires/social-network-api',
+      img: social
+    },
+    {
+      title: 'Budget Tracker',
+      url: 'https://budget-tracker-sp.herokuapp.com/',
+      githubLink: 'https://github.com/stefaniepires/budget-tracker',
+      img: budgetTracker
+    }
   ]
 
 };
