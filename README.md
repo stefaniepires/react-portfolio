@@ -18,7 +18,7 @@ http://stefaniepires.github.io/react-portfolio
   Run npm install
   
   ### Usage
- AS A developer I want a porfolio to showcase my experience, skills, and projects. 
+ As a developer I want a porfolio to showcase my experience, skills, and projects. 
 
 
   ### Contributors
