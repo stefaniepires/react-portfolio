@@ -4,3 +4,12 @@
   font-size: 125px;
  font-weight: 100; 
 }
+
+
+@media (max-width: 950px) {
+
+.header-title {
+  display: none;
+}
+
+}
