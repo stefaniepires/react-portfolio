@@ -32,19 +32,19 @@ const Nav = () => {
       <Typography component="div">
       <Box width={200}>
         <List className='list-items'>
-  <ListItem button component="a" href="#/about">
+  <ListItem button component="a" href="/#/about">
     <ListItemText primary="about" />
   </ListItem>
 
-  <ListItem button component="a" href="projects">
+  <ListItem button component="a" href="/#/projects">
     <ListItemText primary="projects" />
   </ListItem>
 
-  <ListItem button component="a" href="/">
+  <ListItem button component="a" href="/#/">
     <ListItemText primary="resume" />
   </ListItem>
 
-  <ListItem button component="a" href="contact">
+  <ListItem button component="a" href="/#/contact">
     <ListItemText primary="contact" />
   </ListItem>
 
