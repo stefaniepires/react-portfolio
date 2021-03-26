@@ -19,7 +19,7 @@ const Nav = () => {
   const [state, setState] = React.useState(false)
 
   const toggleDrawer = (open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+    if (event.type === 'keydown' || event.type === 'click' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
 
@@ -85,6 +85,8 @@ const Nav = () => {
 anchor={'left'}
 open={state}
 onClose={toggleDrawer(false)}
+onClick={toggleDrawer(false)}
+onKeyDown={toggleDrawer(false)}
 >
   {list()}
 </Drawer>
