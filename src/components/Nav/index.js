@@ -32,7 +32,7 @@ const Nav = () => {
       <Typography component="div">
       <Box width={200}>
         <List className='list-items'>
-  <ListItem button component="a" href="about">
+  <ListItem button component="a" href="#/about">
     <ListItemText primary="about" />
   </ListItem>
 
