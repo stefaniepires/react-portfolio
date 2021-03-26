@@ -19,48 +19,24 @@ const About = () => {
          
           <Grid container>
             <Grid item xs={12} sm={12} md={6} lg= {6}>
-             <ul>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.one}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.two}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.three}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.four}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.five}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.six}
-              </li>
-              </ul>
+             {resumeData.skills1.map (skill1 => (
+               <ul>
+               <li>
+                 <CheckIcon className="check"/> {skill1.title}
+              
+               </li>
+               </ul>
+             ))}
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg= {6}>
-            <ul>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.seven}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.eight}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.nine}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.ten}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.eleven}
-              </li>
-              <li>
-              <CheckIcon className="check"/>{resumeData.skills.twelve}
-              </li>
-              </ul>
+             {resumeData.skills2.map (skill2 => (
+               <ul>
+               <li>
+                 <CheckIcon className="check"/> {skill2.title}
+              
+               </li>
+               </ul>
+             ))}
             </Grid>
           </Grid>
           

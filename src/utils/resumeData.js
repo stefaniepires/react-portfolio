@@ -73,21 +73,50 @@ export default {
     }
   },
 
-  skills: {
-    one: 'HTML5',
-    two: 'CSS3',
-    three: 'Javascript',
-    four: 'JQuery',
-    five: 'Node Js',
-    six: 'MySQL',
-    seven: 'MongoDB',
-    eight: 'Express',
-    nine: 'Handelbars.js',
-    ten: 'ReactJS',
-    eleven: 'Material-UI',
-    twelve: 'Bootstrap'
-  },
+  skills1: [
+    {
+      title: 'HTML5'
+    },
+    {
+      title: 'CSS3'
+    },
+    {
+      title: 'Javascript'
+    },
+    {
+      title: 'JQuery'
+    },
+    {
+      title: 'Node Js'
+    },
+    {
+      title: 'MySQL'
+    },
 
+  ],
+
+  skills2: [
+    {
+      title: 'MongoDB'
+    },
+    {
+      title: 'Express'
+    },
+    {
+      title: 'Handelbars.js'
+    },
+    {
+      title: 'ReactJS'
+    },
+    {
+      title: 'Material-UI'
+    },
+    {
+      title: 'Bootstrap'
+    },
+
+  ],
+  
   experiences: [
     {
       
