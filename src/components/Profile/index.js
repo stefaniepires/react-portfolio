@@ -31,7 +31,10 @@ const Profile = () => {
       <br/>
       <p><LocationOnIcon/>{resumeData.location}</p>
       <br/>
-      <CustomButton className="profile-btn" text={'Download CV'} icon= {<GetAppIcon/>}/>
+      <div className="link">
+      <a data-testid="link" href="https://stefaniepires.github.io/portfolio/assets/Resume/stefanie_resume.pdf">
+      <CustomButton className="profile-btn" text={'Download CV'} icon= {<GetAppIcon/>
+    }/></a></div>
       
       </div>
       </center>
