@@ -11,7 +11,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 import fridgeFriend from '../assets/projects/fridge_friend.png';
 import budgetTracker from '../assets/projects/budget_tracker.png';
-import codingQuiz from '../assets/projects/coding_quiz.png';
+import memeOries from '../assets/projects/memeOries.png';
 import deckHalls from '../assets/projects/deck_halls.png';
 import nomader from '../assets/projects/nomader_where.png';
 import pwa from '../assets/projects/pwa.png';
@@ -103,7 +103,15 @@ export default {
     {
       title: 'MySQL'
     },
-
+    {
+      title: 'Angular'
+    },
+    {
+      title: 'Github'
+    },
+    {
+      title: 'SCSS'
+    }
   ],
 
   skills2: [
@@ -125,39 +133,26 @@ export default {
     {
       title: 'Bootstrap'
     },
+    {
+      title: 'C#'
+    },
+    {
+      title: '.Net Framework'
+    },
+    {
+      title: 'Azure'
+    }
 
   ],
   
   experiences: [
     {
       
-        title: 'Full Stack Developer - ',
-        date: 'April 2021 - Present',
-        description: 'This is currently TBD'
-      
-    },
-    {
-      
       title: 'Account Manager - FusionPKG',
       date: 'December 2018 - November 2020',
       description: 'Promoted 11 months into the role. Received praise from clients for exceptional customer service, response time, and quality of work.Recognized for working swiftly with minimal errors.'
     
-  },
-  {
-      
-    title: 'Marketing Manager - Tinsley Realty',
-    date: 'July 2017 - January 2019',
-    description: 'This is currently TBD'
-  
-},
-{
-      
-  title: 'Buyer - Sally Beauty Supply',
-  date: 'January 2014 - July 2017',
-  description: 'This is currently TBD'
-
-}
-
+  }
   ],
 
   education: [
@@ -179,6 +174,12 @@ export default {
 
   projects1: [
     {
+      title: 'Meme-ories',
+      url: 'https://m3m3-ories.herokuapp.com/',
+      githubLink: 'https://github.com/stefaniepires/meme-ories',
+      img: memeOries
+    },
+    {
       title: 'MVC Tech Blog',
       url: 'https://tech-blog-sp.herokuapp.com/',
       githubLink: 'https://github.com/stefaniepires/mvc-tech-blog',
@@ -195,12 +196,6 @@ export default {
       url: 'https://stefaniepires.github.io/deck-the-halls/',
       githubLink: 'https://github.com/stefaniepires/deck-the-halls',
       img: deckHalls
-    },
-    {
-      title: 'Coding Quiz',
-      url: 'https://stefaniepires.github.io/code-quiz/',
-      githubLink: 'https://github.com/stefaniepires/code-quiz',
-      img: codingQuiz
     },
     {
       title: 'Social Network API',
