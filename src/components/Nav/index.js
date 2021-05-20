@@ -44,9 +44,7 @@ const Nav = () => {
     <ListItemText primary="resume" />
   </ListItem>
 
-  <ListItem button component="a" href="#/contact">
-    <ListItemText primary="contact" />
-  </ListItem>
+
 
 </List>
 <Divider/>
