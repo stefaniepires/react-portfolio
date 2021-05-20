@@ -26,7 +26,7 @@ export default {
   title: 'Full Stack Developer',
   description: 'Motivated and creative Full Stack Developer passionate about creating user-friendly software.',
   location: ' Dallas-Ft. Worth, TX',
-  about:'Motivated Full Stack Development graduate passionate about developing user-friendly software. Highly organized with ability to work with a team and provide excellent communication. Known among staff for creativity, resourcefulness as well as agility to complete tasks with minimal to no errors.   ',
+  about:'Motivated Full Stack Development graduate passionate about developing user-friendly software. Highly organized with ability to work with a team and provide excellent communication. Known among staff for creativity, resourcefulness as well as agility to complete tasks with minimal to no errors.  ',
 
   socials: {
     linkedin: {
