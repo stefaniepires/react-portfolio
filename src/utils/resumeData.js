@@ -161,7 +161,7 @@ export default {
   },
     {
       
-      title: 'Account Manager - FusionPKG',
+      title: 'Order Fulfillment Specialist - FusionPKG',
       date: 'December 2018 - November 2020',
       description: 'Promoted 11 months into the role. Received praise from clients for exceptional customer service, response time, and quality of work.Recognized for working swiftly with minimal errors.'
     
