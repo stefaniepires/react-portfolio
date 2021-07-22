@@ -153,7 +153,7 @@ export default {
   
   experiences: [
     {
-      
+      //updated
       title: 'Full Stack Developer - Zilis',
       date: 'April 2021 - Current',
       description: 'Collaborate with team members to build responsive applications using React and Angular frameworks, Node and C#/.Net backends, SQL and GraphQL. Add new features to our app within the Angular and React frameworks. Ensure the technical feasibility of UI/UX designs. Optimize application for maximum speed and scalability'
