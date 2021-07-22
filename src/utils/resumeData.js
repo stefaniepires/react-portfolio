@@ -154,6 +154,13 @@ export default {
   experiences: [
     {
       
+      title: 'Full Stack Developer - Zilis',
+      date: 'April 2021 - Current',
+      description: 'Collaborate with team members to build responsive applications using React and Angular frameworks, Node and C#/.Net backends, SQL and GraphQL. Add new features to our app within the Angular and React frameworks. Ensure the technical feasibility of UI/UX designs. Optimize application for maximum speed and scalability'
+    
+  },
+    {
+      
       title: 'Account Manager - FusionPKG',
       date: 'December 2018 - November 2020',
       description: 'Promoted 11 months into the role. Received praise from clients for exceptional customer service, response time, and quality of work.Recognized for working swiftly with minimal errors.'

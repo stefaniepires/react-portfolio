@@ -32,7 +32,7 @@ const Profile = () => {
       <p><LocationOnIcon/>{resumeData.location}</p>
       <br/>
       <div className="link">
-      <a data-testid="link" href="https://stefaniepires.github.io/portfolio/assets/Resume/stefanie_resume.pdf">
+      <a data-testid="link" href="https://github.com/stefaniepires/react-portfolio/blob/main/src/assets/Pires.resume.pdf">
       <CustomButton className="profile-btn" text={'Download CV'} icon= {<GetAppIcon/>
     }/></a></div>
       
