@@ -23,10 +23,10 @@ import weatherDash from '../assets/projects/weather_dashboard.png';
 
 export default {
   name: 'Stefanie Pires',
-  title: 'Full Stack Developer',
-  description: 'Motivated and creative Full Stack Developer passionate about creating user-friendly software.',
-  location: ' Dallas-Ft. Worth, TX',
-  about:'Motivated Full Stack Development graduate passionate about developing user-friendly software. Highly organized with ability to work with a team and provide excellent communication. Known among staff for creativity, resourcefulness as well as agility to complete tasks with minimal to no errors.  ',
+  title: 'Full Stack Engineer',
+  description: 'Motivated Full Stack Development passionate about developing user-friendly software, and committed to a journey of learning.',
+  location: ' Dallas - Ft. Worth, TX',
+  about:'Motivated Full Stack Development passionate about developing user-friendly software, and committed to a journey of learning. Highly organized with ability to work with a team and provide excellent communication. Known among staff for being a team player, quick learner, and highly organized. ',
 
   socials: {
     linkedin: {
@@ -153,19 +153,19 @@ export default {
   
   experiences: [
     {
-      //updated
-      title: 'Full Stack Developer - Zilis',
-      date: 'April 2021 - Current',
-      description: 'Collaborate with team members to build responsive applications using React and Angular frameworks, Node and C#/.Net backends, SQL and GraphQL. Add new features to our app within the Angular and React frameworks. Ensure the technical feasibility of UI/UX designs. Optimize application for maximum speed and scalability'
+      //Vanguard
+      title: 'Application Engineer - Vanguard',
+      date: 'October 2021 - Current',
+      description: 'Design front-end and back-end solutions for test-driven development. Follow agile methodologies such as Scrum and Kanban. Work on continuous delivery pipeline using Bamboo and run automated tests. Quickly ramped up to the Fees product including the downstream services. Appointed to lead weekly scrum meetings. Contributed to correlation-id, Multi-Region and Out of Region AWS effort. Known for being organized and a team player. Appointed as SRE champion for the team. Became a Certified AWS Cloud Practitioner and working towards the AWS Developer Certificate. Achieved certificate in Advanced Python.'
     
   },
-    {
-      
-      title: 'Order Fulfillment Specialist - FusionPKG',
-      date: 'December 2018 - November 2020',
-      description: 'Promoted 11 months into the role. Received praise from clients for exceptional customer service, response time, and quality of work.Recognized for working swiftly with minimal errors.'
-    
-  }
+  {
+    //Zilis
+    title: 'Full Stack Developer - Zilis',
+    date: 'April 2021 - October 2021',
+    description: 'Collaborate with team members to build responsive applications using React and Angular frameworks, Node and C#/.Net backends, SQL and GraphQL. Add new features to our app within the Angular and React frameworks. Ensure the technical feasibility of UI/UX designs. Optimize application for maximum speed and scalability'
+  
+},
   ],
 
   education: [
@@ -176,6 +176,20 @@ export default {
         description: 'A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.'
       
     },
+    {
+      
+      title: 'AWS Cloud Practitioner',
+      date: 'February 2022',
+      description: ''
+    
+  },
+  {
+      
+    title: 'Advanced Python',
+    date: 'April 2022',
+    description: ''
+  
+},
     {
       
       title: 'B.A. Anthropology - University of North Texas',
