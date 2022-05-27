@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cff48d26.css",
-    "main.js": "/react-portfolio/static/js/main.45fb8005.js",
+    "main.css": "/react-portfolio/static/css/main.ce849a9e.css",
+    "main.js": "/react-portfolio/static/js/main.dc7277aa.js",
     "static/js/787.3f9a36af.chunk.js": "/react-portfolio/static/js/787.3f9a36af.chunk.js",
     "static/media/social+api.gif": "/react-portfolio/static/media/social+api.266f00121dd8cf6c1f45.gif",
-    "static/media/headshot.png": "/react-portfolio/static/media/headshot.4e69a51d2487a64e3da4.png",
+    "static/media/headshot.png": "/react-portfolio/static/media/headshot.d91bcbbfb71cf8254cd1.png",
     "static/media/memeOries.png": "/react-portfolio/static/media/memeOries.a7bb405678079c793400.png",
     "static/media/nomader_where.png": "/react-portfolio/static/media/nomader_where.dfd803dbde3b1262b1c9.png",
     "static/media/pwa.png": "/react-portfolio/static/media/pwa.bed530ac622b3f14509d.png",
@@ -16,12 +16,12 @@
     "static/media/taskmaster_pro.png": "/react-portfolio/static/media/taskmaster_pro.f85cfbb67c7065820984.png",
     "static/media/budget_tracker.png": "/react-portfolio/static/media/budget_tracker.f12a0aee2566377100d2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.cff48d26.css.map": "/react-portfolio/static/css/main.cff48d26.css.map",
-    "main.45fb8005.js.map": "/react-portfolio/static/js/main.45fb8005.js.map",
+    "main.ce849a9e.css.map": "/react-portfolio/static/css/main.ce849a9e.css.map",
+    "main.dc7277aa.js.map": "/react-portfolio/static/js/main.dc7277aa.js.map",
     "787.3f9a36af.chunk.js.map": "/react-portfolio/static/js/787.3f9a36af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cff48d26.css",
-    "static/js/main.45fb8005.js"
+    "static/css/main.ce849a9e.css",
+    "static/js/main.dc7277aa.js"
   ]
 }
