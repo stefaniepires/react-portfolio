@@ -21,7 +21,7 @@ const Footer = () => {
       <a className="icons" data-testid="link" href="mailto:StefaniePires91@gmail.com">
       <EmailIcon className="icons"/>
 </a>
-  <a className="icons" data-testid="link" href="https://www.linkedin.com/in/stefanietinsley/">
+  <a className="icons" data-testid="link" href="https://www.linkedin.com/in/stefaniepires/">
   <LinkedinIcon/>
   </a>
   <a className="icons" data-testid="link" href="https://github.com/stefaniepires/">
